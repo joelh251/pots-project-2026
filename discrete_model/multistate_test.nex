@@ -1,0 +1,110 @@
+#NEXUS
+[Data written by write.nexus.data.R, Mon Jul 20 15:21:19 2026]
+BEGIN DATA;
+  DIMENSIONS NTAX=50 NCHAR=98;
+  FORMAT DATATYPE=STANDARD MISSING=? GAP=- INTERLEAVE=YES symbols="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmn";
+  MATRIX
+    greek_amphora_iron_age_-500BCE_18                       QCJbIkAcEdfcWaUCSfIlVdCaMinHNTZkaaBZ7ca8bOA8LM5RCg7QcHLDTm9gMWOBGPIHDS6JTCRRBRIg
+    greek_amphora_iron_age_-450BCE_30                       HXcJh605ImWQk454UaGRhCUAODWmXN9SAHUGR3X14SDJ7njiGGUNaXAC9S6cZg8E8Led8BXTaUACFVH8
+    greek_pelike_iron_age_-450BCE_34                        C6M0QS9CdCAMBBYG3ZJPQ7LZ1G9hbcJXS7IMjJ9HNMQQdN1ZJAMW8CjJFVYUfnBIAGcjFOQ1fI8E9WKO
+    greek_pelike_iron_age_-450BCE_36                        6mjfLdeAhe8Dj2TiQDbE5KQkdIhFjCXRTkaIlViVaZ8CUCNk4WD2DBFOS8iQQPRKd2KkEf2C0OJSLOZP
+    greek_pelike_iron_age_-450BCE_40                        0P6BOnW3X81L60BnJjWbJH5SmhjIcINjkbjP2heA2lWncdX01kf0fnB5eDjfB5Z340TmmM4Z3n6T4Fei
+    greek_italiote_pelike_iron_age_-400BCE_41               VL89J9NVTLY3GShh7FR9m6gVXWgCaYOAMclOLSZLAcFUSSgEThNXOZWhHBdMaKcJZeaMdPidVdHO8QbY
+    greek_pelike_iron_age_-500BCE_54                        J7N8XH12WNeXTH61KAHffUPTg2JXI8HBeFJ2VLdDdnGf9HEfEOHJZfOkVXHlPSJcIkD4bi8k1beW5AUQ
+    greek_pelike_iron_age_-500BCE_57                        A0nPGcaN74NUO6Re976L6Ta5cPDiQUQHEMW8hlWb3VnL5EOTi45UQK5mXdgH7imkDIJKc4IaEfb6HYaR
+    greek_pelike_iron_age_-500BCE_59                        F3S1NWFFkMQRCXX9BGQNBaIUN4UbJdDYj6TCgC7XfblmQLSBc20gBaMa7FXheUel6ZBSJ7A4B4EKV8JG
+    greek_amphora_iron_age_-800BCE_64                       5jlmFigbnnJ4VLQdk3h6I5elURVam7RhXib1aejRgTkd04dg8RYakIP4YKKIn3nGcdfn9m5FcLFM0i3B
+    greek_amphora_iron_age_-800BCE_69                       ZGAGd4fagRSa7DVaFP9OOgYPYFaEGjWecCfHeEIFk9dONiUNabVA4cS96RcGVAVTJhXOBLaUCWCeiGQD
+    greek_pelike_iron_age_-350BCE_77                        7e3e4aY0mT9VnfIc1I81DkneF6mJeOTcLIQii7FNVUBWBbhlfP1dL4iUjg8b4N01h1EDkX78JA7hS6n9
+    greek_italiote_amphora_iron_age_-400BCE_86              jM9NaPEi593N0NNbj6C5YRb3GbNkBgi7DU7BObPJOKX7VPAJdZ8PXbd71N2jGGfakAGYIN0XNK0fUeCE
+    greek_amphora_iron_age_-600BCE_93                       X4blbbU4GEc0fYCgW9UgiW2ghNXA5E32P53fHA0fLQhcODaSUMgYFS8gJ7QBXV6LnS0cnjM3j0ZD7PRC
+    greek_amphora_iron_age_-600BCE_97                       M9HZZhBnVcgFDTcIdb7ScG7f4Ed6TQBL8T5bSTVT5FSPGWVced3jYMJcdYfLg9jSO5YCTDSiAZX7QZhF
+    greek_amphora_iron_age_-600BCE_98                       TIEQiX4mDZUCNMdVXJ3CaVVbLAe7ZV7OIQ4j6Phi6hRDFYH80VjFldELOQaRjaQ5MB7aOUDbZYi5XIca
+    greek_italiote_amphora_iron_age_-350BCE_103             iT4XSeCPUYTkIgEOHXdXGZXGPcYjR3gMB8EV3IJhlNKR3KB2A6BMh3T8NPJYEJMXgEV772LS4G2QIUDK
+    greek_italiote_amphora_iron_age_-350BCE_107             gKWU7m6D3GbbQmDWIink24HR6QINPbnJ91MS4Z15nHUT2UmXHnG5nlVAK1P36Y9dQ45NGVKHYHlklb01
+    greek_italiote_pelike_hellenistic_age_-350BCE_120       bQ5DDGKQMVZ19lHRPKEmE2ZYkCMOgeh5KXhgYRHnIiI6DRT33mPiWTZdfbLXhEUPFi4G3WT5ITYNTjWS
+    greek_amphora_iron_age_-750BCE_126                      cR7TY1ddFAXWF18XCCPhSLfDZBfLMljPVhY4UYDQi2LZEm8YjcES2Rf65aRAH8XRUYNAZEEOUXKZNSgU
+    greek_amphora_iron_age_-750BCE_127                      dJCRj3XOOHOjK8amc51e8fddiUOTDSkTONVFQKOCG3E01IDFKBXOeV4I8IW70hhUafW9WRJKPE9HahNk
+    greek_amphora_iron_age_-750BCE_129                      4lRLAjk1CJIne3Kkfn5W4SAKe3Z1hiI1ZnS5M4RkQJV5m3QnONFTS6m1AHC4LDiWlC10MJjB8gh4Dc6Z
+    greek_amphora_iron_age_-350BCE_141                      fBKdlVRKe1MERVFPlVLYjcOjDMRQ3FlIlR1X58bcWYMeC1Gd77SeELDNckTOlZSNe3Oih6BmMD3bhf7e
+    greek_amphora_iron_age_-1000BCE_154                     aOBYk2MIZIaIhFlUN1K73ikif5bMfWcZgeA3ckA49GjX8e37IDiITkQeh4F5JXP0j7gEHAleeeQXM39b
+    greek_loutrophoros_iron_age_-450BCE_157                 kY1HEZbea6D88P06bggTkbl05lTYkM0Fi3cYkgLjPjTSZVCjZ369NQIMQJNFOHACVQSgLbchW5LjCNFh
+    greek_loutrophoros_iron_age_-450BCE_158                 lf0FHgSWb7KOYeAKiWiagMj2Ed3WiH59bYXJWakg0m3IeaRHW5JBbA6ji5bS8kbFKH2LKn92d7nAGD4n
+    greek_loutrophoros_iron_age_-450BCE_161                 nFGC9CjGKPE9mb1f8TZACO9L0TSGH9Md4ZN9GO6M1AcjRBJLQahHjgRbWhOnUR29bMU21CV792D867lV
+    greek_amphora_iron_age_-650BCE_171                      SbeaBBPfJlLTMRjZaEBdN9W8Wa6B7X6ghPOdIBC78BJbX76VLKLlKWbGRG5ZKdTZEXHP6cZgXlcIg5fA
+    greek_pelike_iron_age_-550BCE_182                       G1Z2KT7EYDPJ5JWB6R0MPBFX7LLUAPLbJJmAX5QYCfHYHgKe90m6HFgKETMEIMDg59bliHbWSJU9KJdT
+    greek_pelike_iron_age_-550BCE_183                       IDFAVN86cWd51K78ABAUF8TEK9HcVaPGGOn6f9MUFgCgAkfbVJW837hYCE3WA6Lf7NQRPKhc6FMGOBLL
+    greek_pelike_iron_age_-550BCE_187                       K2dMTATMlOlKZZOEYU2KlA64V0GV8KYWCdkhEF5SKd4NTJiaDUIEPOGTIcBKdBWbBgFQ48WP5cOPbdAM
+    greek_pelike_iron_age_-550BCE_188                       N5PKREZYjKnHaWnLmLcidDGOH7ldK6efNKDENX8PjL6MY8M4gSZ4MGXSbUGDbOYjLKdXUhHQLkgYcCkN
+    greek_amphora_hellenistic_age_-150BCE_191               8UT4cUVXRk5gSCJNO2F8AI49a84Z9hd0WDgW9mfEce0FjA2QRfQcVeNRPAZd345Y9nATlY3lG3fgA1VJ
+    greek_amphora_hellenistic_age_-150BCE_197               BiU5fKmkLQh2Lhb3geY41J0ITjKSdAGKHLimn0mOXD14bXLOY99f5j922nU01Fa4H66fN31Ih8Td2EYc
+    greek_italiote_pelike_iron_age_-350BCE_204              LWLI1O37AFVd3AM2Z0acWlmWbV0eCL4V2j8Q1UUZm1PKk0n5hCKR0Y0XLMn6m246PDmZ51enihm11mMX
+    greek_italiote_amphora_hellenistic_age_-300BCE_218      OgkjWJHSQbmGHOeDDSeZTjMc9X74OGCQdVZLPncBBaY9gObG6IbVUP2Pai1T9T7hCOZ5YGNDg64Jflj6
+    greek_italiote_amphora_hellenistic_age_-300BCE_221      hEXSCDDT2SBZXIilLMDB7NBQlmifSffUf9PNbHBW7XbGahPmSFaLG5KiMCmNcjKH0FRWAkCYHNNUZX15
+    greek_amphora_hellenistic_age_-200BCE_225               9SV3m0hh9U67Pn3HGYTnnENMCSEKY4a63AFTKi46R771P6cDFTTk60lWB6D8kmgAfcCIVFF6bSjVJ2P4
+    greek_amphora_iron_age_-400BCE_230                      eAQceLIHP2CAgQPSMdSDZXRh3ZFPERbEQECUTDKeYCaVK5FWP8CnJ8aVGekPTQGMWRhhSQYfFVGFPTT7
+    greek_italiote_amphora_hellenistic_age_-350BCE_237      Unmn05OUNi7P4U9F24lFX13CRHCl21Flnm2Rm6gmH52l6c4PXiADgiY3l0S9WfF2mmlVQ0nADiWlk08l
+    greek_italiote_amphora_hellenistic_age_-350BCE_238      Rcgi5I5lHgF6U7kJRNNHK3EFSk1R4ZKmmgeeDW20T0ZBI9YKkQlhC11lm9EiDlNeTU9URTRjRaamYai0
+    greek_italiote_amphora_hellenistic_age_-350BCE_241      m8OEMfQJ6fGidc4Th8j3HeJH8Oc81BUD5SR7dMGGJPfihFeC5LO7IJU03lemNbEDRa3bfIgGQMdi39mH
+    greek_italiote_pelike_hellenistic_age_-300BCE_253       EZa6gMcLijRY2dfQTHVJRF8NAYPDUDS8FBHcFNS9DEOHWQ76mHRbADHBkWVCYCI7iTP8eedM7BPcRgX3
+    greek_italiote_amphora_iron_age_-450BCE_260             DHYh6FG8fXklbGG5EhfIUhh62g82Lnma1ldlAdNdh4i2nlZ12ekK7hcnUf712LHVS8jJaaG9K15LWKG2
+    greek_italiote_amphora_iron_age_-450BCE_261             PhigU72B8hjhc9ZAecOjbPS7QnA5WJEiUfKK8jl2e69klZIABEemRNeQDjIki1ki3W8egdk0m9BBmL2f
+    greek_italiote_amphora_iron_age_-450BCE_263             WkfW8RLjSa2elEgj5kkGeQD1J1Bg62247G6aZ2YIM8mE429Ib1dZimnFgZAJ50dnNJM329fVkjI3E4Od
+    greek_italiote_amphora_iron_age_-450BCE_265             YNhkPYJ94BiBJjSM0QmQ9Y1JIe59nmVCY2LDCG33URNaMfWMlYc3mUCZ42l2FeC82bk1ClPN2QV2enEj
+    greek_amphora_hellenistic_age_-100BCE_279               3d2Vnlng154fiim04mM000iBnK2005An00000fElSkg3JT0UNl2C1E7EZOhVR73OYViBXZOEORSadMSW
+    greek_amphora_hellenistic_age_-100BCE_280               2VIO28lZB3HSEkL7nlX2LmcmjJknFk83R4GkB1nKZWeAfjkhMjnGd2kHn34aCc1QXlL6j5mLlm10nk5I
+    greek_amphora_hellenistic_age_-100BCE_281               1aD73QiR000mA52YVO4VMnKnBfQ3l01N6W9nJQTaEI5hiGl9nX41993f0L0eSIlm1jnF0gURnPknjHBm
+
+    greek_amphora_iron_age_-500BCE_18                       H87K5UHWG5PWGQZZiO
+    greek_amphora_iron_age_-450BCE_30                       FTiEK5Z5WnXi5aIjJB
+    greek_pelike_iron_age_-450BCE_34                        McPcdH69O8fCnMgET8
+    greek_pelike_iron_age_-450BCE_36                        8VQ4ZRRR8HAE3cUXa9
+    greek_pelike_iron_age_-450BCE_40                        9LLbLKUfUEQ0mEWb1W
+    greek_italiote_pelike_iron_age_-400BCE_41               fCILf9dDBWdRBHLQFT
+    greek_pelike_iron_age_-500BCE_54                        jSUQknQeHU6L030NCJ
+    greek_pelike_iron_age_-500BCE_57                        2Y6HaFLZh6Fh97c66I
+    greek_pelike_iron_age_-500BCE_59                        bWM6MEBPQ098OgPA56
+    greek_amphora_iron_age_-800BCE_64                       k54DH3TQDblJAAbYdU
+    greek_amphora_iron_age_-800BCE_69                       dejV9LXScJBfjb9T90
+    greek_pelike_iron_age_-350BCE_77                        Kgkhl2Wm1jJnIG8fXd
+    greek_italiote_amphora_iron_age_-400BCE_86              RAcMhCbOXVhcXkGFHh
+    greek_amphora_iron_age_-600BCE_93                       66K2Gb4F5iMBWUQ5m5
+    greek_amphora_iron_age_-600BCE_97                       I3dXB61d63aYFi6e74
+    greek_amphora_iron_age_-600BCE_98                       WFeJWjhgbl1jDdAVQD
+    greek_italiote_amphora_iron_age_-350BCE_103             c9CZJXa6mfOM6DOSGa
+    greek_italiote_amphora_iron_age_-350BCE_107             UmEkmk0M2ee4QWHn0b
+    greek_italiote_pelike_hellenistic_age_-350BCE_120       OIlTAOfj4Zc9lJF3SL
+    greek_amphora_iron_age_-750BCE_126                      1NNUSMC47R5ZLP4IhQ
+    greek_amphora_iron_age_-750BCE_127                      5bHeIGMKLKTdeO18NP
+    greek_amphora_iron_age_-750BCE_129                      h79f7anLgDU51lCkMN
+    greek_amphora_iron_age_-350BCE_141                      BDBjeID7YaR3R9hgWA
+    greek_amphora_iron_age_-1000BCE_154                     gXVO6NK0ZLYDNRSlje
+    greek_loutrophoros_iron_age_-450BCE_157                 XP13DBebFG7OENimLV
+    greek_loutrophoros_iron_age_-450BCE_158                 lGb9FVShMhibZeRHEf
+    greek_loutrophoros_iron_age_-450BCE_161                 JM3NTlmCiXnlbfdWBZ
+    greek_amphora_iron_age_-650BCE_171                      GJAiYeANk9IA7hJaPc
+    greek_pelike_iron_age_-550BCE_182                       TOZCbdPHPC2VfnlOeS
+    greek_pelike_iron_age_-550BCE_183                       eUFBESgERFS1MSncZg
+    greek_pelike_iron_age_-550BCE_187                       YEh8QYkcNIVaSBedRM
+    greek_pelike_iron_age_-550BCE_188                       V0Xd4m5ICPNUKZ3Jfj
+    greek_amphora_hellenistic_age_-150BCE_191               n2aaV0933BGTh0f0Ak
+    greek_amphora_hellenistic_age_-150BCE_197               ah0nRic1lY86VLT7I3
+    greek_italiote_pelike_iron_age_-350BCE_204              4lDFC82BVkkHamE1cm
+    greek_italiote_amphora_hellenistic_age_-300BCE_218      PiggN1Gkd7jXi8k4Dn
+    greek_italiote_amphora_hellenistic_age_-300BCE_221      iBOA8cOXf2gK41NUbG
+    greek_amphora_hellenistic_age_-200BCE_225               D1SYjQJaSOCmd6jh2i
+    greek_amphora_iron_age_-400BCE_230                      N4fmc488KQEFUIVLKH
+    greek_italiote_amphora_hellenistic_age_-350BCE_237      EQmRnAjlJ1LgC4m2n7
+    greek_italiote_amphora_hellenistic_age_-350BCE_238      CKRW2gIYng37PXBiYK
+    greek_italiote_amphora_hellenistic_age_-350BCE_241      Lk570fiVTdWSJ5K94R
+    greek_italiote_pelike_hellenistic_age_-300BCE_253       QjTGXhYJaTKI2CDRkY
+    greek_italiote_amphora_iron_age_-450BCE_260             mnJ1iPVneA0k8TXMV2
+    greek_italiote_amphora_iron_age_-450BCE_261             0f8PUWEA0MHPHYaC31
+    greek_italiote_amphora_iron_age_-450BCE_263             AaYl1T7iAS4NgFYDgX
+    greek_italiote_amphora_iron_age_-450BCE_265             3ZWSO7l294becj5KOC
+    greek_amphora_hellenistic_age_-100BCE_279               ZdGIPJNGIcZQYVMPUE
+    greek_amphora_hellenistic_age_-100BCE_280               SH203D3TjNDGTK7B8l
+    greek_amphora_hellenistic_age_-100BCE_281               7Rn5gZFUEmm2k22GlF
+  ;
+END;
+
