@@ -9,3 +9,6 @@ A simple version currently runs 600x slower than the old models.
 
 Test division of data into bins, rather than assignment of each value as a unique character.
 
+
+### armand_learning
+Various details for using the HPC and getting to know RevBayes

@@ -48,3 +48,10 @@ morpho[,1]
 morpho[1,]
 morpho.methods()
 q()
+taxa <- readTaxonData("armand_learning/simple_model/data/mini_taxa.tsv")
+taxa.methods()
+taxa[1][1]
+taxa[1]
+taxa[1].maxAge()
+taxa[1].methods()
+q()

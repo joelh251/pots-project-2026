@@ -1,0 +1,43 @@
+#Speciation and extinction rates
+lambda <- ln(100)
+
+psi ~ dnExponential(10000) 
+moves.append( mvScale(psi, lambda=0.1,  weight=1) )
+
+speciation_rate ~ dnExponential(lambda)
+moves.append( mvScale(speciation_rate, lambda = 0.1, weight=1) )
+
+extinction_rate ~ dnExponential(lambda)
+moves.append( mvScale(extinction_rate, lambda = 0.1, weight=1) )
+
+#Probability of sampling extant taxa (rho)
+rho <- 1.0
+
+#Origin time
+origin_time ~ dnUnif(max_age, 3100)
+
+moves.append( mvSlide(origin_time, delta=0.1,  weight=5.0) )
+
+#Define FBD distribution
+fbd_tree ~ dnFBDP(origin=origin_time, lambda=speciation_rate, mu=extinction_rate, psi=psi, rho=rho, taxa=taxa)
+
+moves.append( mvFNPR(fbd_tree, weight=15.0) )
+moves.append( mvCollapseExpandFossilBranch(fbd_tree, origin_time, weight=6.0) )
+
+moves.append( mvNodeTimeSlideUniform(fbd_tree, weight=40.0) )
+moves.append( mvRootTimeSlideUniform(fbd_tree, origin_time, weight=5.0) )
+
+#accounting for age uncertainty
+fossils = fbd_tree.getFossils()
+
+for(i in 1:fossils.size())
+{
+    t[i] := tmrca(fbd_tree, clade(fossils[i]))
+    a_i = fossils[i].getMinAge()
+    b_i = fossils[i].getMaxAge()
+    F[i] ~ dnUniform(t[i] - b_i, t[i] - a_i)
+    F[i].clamp(0)
+}
+
+moves.append( mvFossilTimeSlideUniform(fbd_tree, origin_time, weight=15.0) )
+
