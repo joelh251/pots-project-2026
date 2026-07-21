@@ -1,6 +1,6 @@
 # Description
 
-OUTPUT_DIR = "armand_learning/simple_model/output/"
+OUTPUT_DIR = "armand_learning/simple_model/output/simple_run"
 
 #data
 morpho <- readContinuousCharacterData("armand_learning/simple_model/data/mini_character.nex")
