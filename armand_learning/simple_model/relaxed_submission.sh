@@ -4,9 +4,9 @@
 #PBS -N Relaxed
 
 cd $HOME/GitHub/pots-project-2026 || { echo "ERROR: cd failed"; exit 1; }
-mkdir -p "armand_learning/simple_model/output"
+mkdir -p "armand_learning/simple_model/rel_output"
 
-LOGFILE="armand_learning/simple_model/output/logfile.log"
+LOGFILE="armand_learning/simple_model/rel_output/logfile.log"
 PROGRAM="$HOME/revbayes/projects/cmake/build-mpi/rb-mpi"
 
 SECONDS=0

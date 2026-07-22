@@ -1,4 +1,4 @@
-OUTPUT_DIR = "armand_learning/simple_model/relaxed_output/relaxed_run"
+OUTPUT_DIR = "armand_learning/simple_model/rel_output/relaxed_run"
 
 T <- readTrees("armand_learning/simple_model/output/simple_run_mcc.tree")[1]
 morpho <- readContinuousCharacterData("armand_learning/simple_model/data/mini_character.nex")
