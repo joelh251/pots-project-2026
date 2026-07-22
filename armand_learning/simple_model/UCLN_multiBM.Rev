@@ -1,0 +1,35 @@
+OUTPUT_DIR = "full_model/output/UCLN_multiBM/UCLN_multiBM"
+
+T <- readTrees("supertree/trees/number1_mcc.tree")[1]
+morpho <- readContinuousCharacterData("supertree/data/pair_sample_character_data_1.nex")
+
+trait <- 1:65
+
+morpho.excludeAll()
+morpho.includeCharacter( trait )
+
+#Create helper variables
+moves = VectorMoves()
+
+#Load in models
+source("full_model/clocks/UCLN_model.Rev") #Clock script
+source("full_model/evo_models/rel_simple_BM.Rev") #Evolutionary model script
+
+#Create combined model
+mymodel = model(branch_rates)
+
+#Specify monitors
+monitors = VectorMonitors()
+
+monitors.append( mnModel(filename=(OUTPUT_DIR + ".log"), printgen=10) )
+monitors.append( mnExtNewick(filename=(OUTPUT_DIR + ".trees"), isNodeParameter=TRUE, printgen=10, separator=TAB, tree=T, branch_rates) )
+monitors.append( mnScreen(printgen=1000, branch_rates) )
+
+#Run the model
+mymcmcmc = mcmcmc(mymodel, monitors, moves, nchains=5, nruns=3, tuneHeat=TRUE, combine="mixed")
+
+mymcmcmc.burnin(generations=30000, tuningInterval=200)
+mymcmcmc.run(300000)
+
+#Quit
+q()

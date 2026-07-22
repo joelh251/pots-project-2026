@@ -11,7 +11,7 @@ for (i in 1:taxa.size()) {
 }
 max_age = max(ages)
 
-trait <- 1:5
+trait <- 1:65
 
 morpho.excludeAll()
 morpho.includeCharacter( trait )
@@ -37,8 +37,8 @@ monitors.append( mnScreen(printgen=10, sigma2) )
 #Run the model
 mymcmcmc = mcmcmc(mymodel, monitors, moves, nchains=5, nruns=3, tuneHeat=TRUE, combine="mixed")
 
-mymcmcmc.burnin(generations=1000, tuningInterval=100)
-mymcmcmc.run(10000)
+mymcmcmc.burnin(generations=10000, tuningInterval=100)
+mymcmcmc.run(100000)
 
 #Make MCC tree
 trace = readTreeTrace((OUTPUT_DIR + ".trees"))

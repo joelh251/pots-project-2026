@@ -1,4 +1,6 @@
 # Guide to using the HPC
+Login = <userid>@login.cx3.hpc.imperial.ac.uk
+Password - won't display on screen and you can't backspace
 
 ## Important commands
 - `cd` - navigates the file system
