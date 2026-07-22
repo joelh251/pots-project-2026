@@ -1,0 +1,2 @@
+X ~ dnPhyloBrownianREML(T, branchRates=branch_rates^0.5)
+X.clamp(morpho)

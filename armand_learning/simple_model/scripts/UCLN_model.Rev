@@ -1,0 +1,22 @@
+n_taxa <- T.ntips()
+n_branches <- T.nbranches()
+
+# Global clock parameters
+ucln_mean ~ dnExponential(2.0) # Mean
+ucln_sigma ~ dnExponential(3.0) # Stdev
+ucln_var := ucln_sigma * ucln_sigma # Variance
+
+ucln_mu := ln(ucln_mean) - (ucln_var * 0.5)
+
+moves.append( mvScale(ucln_mean, lambda=1.0, tune=true, weight=4.0))
+moves.append( mvScale(ucln_sigma, lambda=0.5, tune=true, weight=4.0))
+
+for(i in 1:n_branches){
+   branch_rates[i] ~ dnLnorm(ucln_mu, ucln_sigma)
+   moves.append( mvScale(branch_rates[i], lambda=1, tune=true, weight=2))
+}   
+
+moves.append( mvVectorScale(branch_rates,lambda=1.0,tune=true,weight=2.0) )
+moves.append( mvVectorSingleElementScale(branch_rates,lambda=30.0,tune=true,weight=1.0) )
+
+mean_rt := mean(branch_rates) 

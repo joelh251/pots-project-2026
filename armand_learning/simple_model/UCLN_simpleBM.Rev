@@ -1,7 +1,7 @@
-OUTPUT_DIR = "full_model/output/UCLN_multiBM/UCLN_multiBM"
+OUTPUT_DIR = "armand_learning/simple_model/relaxed_output/relaxed_run"
 
-T <- readTrees("supertree/trees/number1_mcc.tree")[1]
-morpho <- readContinuousCharacterData("supertree/data/pair_sample_character_data_1.nex")
+T <- readTrees("armand_learning/simple_model/output/simple_run_mcc.tree")[1]
+morpho <- readContinuousCharacterData("armand_learning/simple_model/data/mini_character.nex")
 
 trait <- 1:65
 
@@ -12,8 +12,8 @@ morpho.includeCharacter( trait )
 moves = VectorMoves()
 
 #Load in models
-source("full_model/clocks/UCLN_model.Rev") #Clock script
-source("full_model/evo_models/rel_simple_BM.Rev") #Evolutionary model script
+source("armand_learning/simple_model/scripts/UCLN_model.Rev") #Clock script
+source("armand_learning/simple_model/scripts/rel_simple_BM.Rev") #Evolutionary model script
 
 #Create combined model
 mymodel = model(branch_rates)
@@ -28,8 +28,8 @@ monitors.append( mnScreen(printgen=1000, branch_rates) )
 #Run the model
 mymcmcmc = mcmcmc(mymodel, monitors, moves, nchains=5, nruns=3, tuneHeat=TRUE, combine="mixed")
 
-mymcmcmc.burnin(generations=30000, tuningInterval=200)
-mymcmcmc.run(300000)
+mymcmcmc.burnin(generations=10000, tuningInterval=200)
+mymcmcmc.run(100000)
 
 #Quit
 q()
