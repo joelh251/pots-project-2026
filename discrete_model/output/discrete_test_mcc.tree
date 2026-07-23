@@ -1,0 +1,21 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=10;
+	Taxlabels
+		greek_amphora_iron_age_-1050BCE_277
+		greek_amphora_iron_age_-300BCE_294
+		greek_amphora_iron_age_-350BCE_142
+		greek_amphora_iron_age_-500BCE_18
+		greek_amphora_iron_age_-600BCE_97
+		greek_italiote_amphora_hellenistic_age_-300BCE_216
+		greek_italiote_amphora_iron_age_-450BCE_264
+		greek_italiote_pelike_iron_age_-400BCE_44
+		greek_pelike_iron_age_-350BCE_71
+		greek_pelike_iron_age_-450BCE_31
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R](((((((greek_amphora_iron_age_-300BCE_294[&index=7,sampled_ancestor=0.091877,age_95%_HPD={0,128.495}]:58.614766,greek_italiote_amphora_hellenistic_age_-300BCE_216[&index=8,sampled_ancestor=0.062583,age_95%_HPD={0,82.8549}]:106.231373)[&index=11,age_95%_HPD={36.2898,234.625}]:59.151936[&posterior=0.180426],greek_amphora_iron_age_-350BCE_142[&index=4,sampled_ancestor=0.205726,age_95%_HPD={39.8171,204.228}]:54.828231)[&index=12,age_95%_HPD={70.2217,304.672}]:34.419775[&posterior=0.083888],(greek_italiote_pelike_iron_age_-400BCE_44[&index=5,sampled_ancestor=0.232357,age_95%_HPD={58.5615,231.543}]:57.237519,greek_pelike_iron_age_-350BCE_71[&index=6,sampled_ancestor=0.206391,age_95%_HPD={52.3487,214.911}]:70.527328)[&index=13,age_95%_HPD={104.618,301.277}]:15.035503[&posterior=0.074567])[&index=14,age_95%_HPD={92.2287,316.401}]:84.005157[&posterior=0.106525],greek_italiote_amphora_iron_age_-450BCE_264[&index=1,sampled_ancestor=0.166445,age_95%_HPD={150.06,277.254}]:79.221598)[&index=15,age_95%_HPD={157.121,417.454}]:70.873607[&posterior=0.057257],(greek_amphora_iron_age_-500BCE_18[&index=3,sampled_ancestor=0.247004,age_95%_HPD={198.982,339.015}]:48.653920,greek_pelike_iron_age_-450BCE_31[&index=2,sampled_ancestor=0.197736,age_95%_HPD={145.897,286.529}]:100.166057)[&index=16,age_95%_HPD={210.493,408.177}]:50.414017[&posterior=0.062583])[&index=17,age_95%_HPD={228.37,553.814}]:140.800943[&posterior=0.231025],greek_amphora_iron_age_-600BCE_97[&index=9,sampled_ancestor=0.229028,age_95%_HPD={270.876,411.342}]:164.548219)[&index=18,age_95%_HPD={301.847,738.457}]:308.162232[&posterior=0.954061],greek_amphora_iron_age_-1050BCE_277[&index=10,sampled_ancestor=0.305593,age_95%_HPD={711.149,842.914}]:35.090844)[&index=19,age_95%_HPD={730.768,911.463}]:0.000000[&posterior=0.717710];
+End;

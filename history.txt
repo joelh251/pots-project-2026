@@ -1,57 +1,100 @@
-rates <- v(0.997407827206284, 0.863792005066032, 0.849286759346893, 0.842357821820211, 0.830731021002773, 0.818612537708237, 0.757186512650516, 0.750816400582324, 0.736748863843757, 0.736078861217542, 0.73162441732246, 0.726354505013362, 0.715179897997062, 0.70501451655596, 0.691354242662013, 0.662166790423996, 0.651502285657826, 0.632367198912621, 0.63110584861657, 0.624599262114798, 0.600801241163509, 0.599341723865622, 0.594080482002753, 0.584962276720471, 0.557727429214022, 0.525396913462648, 0.525247172506426, 0.489110755242965, 0.449135658972014, 0.44639145270029, 0.429815305642647, 0.417721200781141, 0.395633121438296, 0.3876719694934, 0.351177743468354, 0.339683405336523, 0.337558554017017, 0.293780770396357, 0.280014342340903, 0.275004188079461, 0.224465984331262, 0.204558491608137, 0.116666570831277, 0.107183966345751, 0.10094035204151, 0.046378775344061, 0.0351465562934668, 0.0236922733423685, 0, 0.997407827206284, 0.866384177859748, 0.851878932140609, 0.844949994613928, 0.833323193796489, 0.821204710501953, 0.759778685444232, 0.75340857337604, 0.739341036637473, 0.738671034011258, 0.734216590116176, 0.728946677807078, 0.717772070790778, 0.707606689349676, 0.693946415455729, 0.664758963217712, 0.654094458451542, 0.634959371706337, 0.633698021410286, 0.627191434908514, 0.603393413957225, 0.601933896659338, 0.596672654796469, 0.587554449514187, 0.560319602007738, 0.527989086256364, 0.527839345300142, 0.491702928036681, 0.45172783176573, 0.448983625494006, 0.432407478436363, 0.420313373574857, 0.398225294232012, 0.390264142287116, 0.35376991626207, 0.342275578130239, 0.340150726810733, 0.296372943190073, 0.282606515134619, 0.277596360873177, 0.227058157124978, 0.207150664401853, 0.119258743624993, 0.109776139139467, 0.103532524835226, 0.048970948137777, 0.0377387290871828, 0.0262844461360845, 0.00259217279371603, 0.863792005066032, 0.866384177859748, 0.985494754280861, 0.97856581675418, 0.966939015936741, 0.954820532642205, 0.893394507584484, 0.887024395516292, 0.872956858777725, 0.87228685615151, 0.867832412256428, 0.86256249994733, 0.85138789293103, 0.841222511489928, 0.827562237595981, 0.798374785357964, 0.787710280591794, 0.768575193846589, 0.767313843550538, 0.760807257048766, 0.737009236097477, 0.73554971879959, 0.730288476936721, 0.721170271654439, 0.69393542414799, 0.661604908396616, 0.661455167440394, 0.625318750176933, 0.585343653905982, 0.582599447634258, 0.566023300576615, 0.553929195715109, 0.531841116372264, 0.523879964427368, 0.487385738402322, 0.475891400270491, 0.473766548950985, 0.429988765330325, 0.416222337274871, 0.411212183013429, 0.36067397926523, 0.340766486542105, 0.252874565765245, 0.243391961279719, 0.237148346975478, 0.182586770278029, 0.171354551227435, 0.159900268276337, 0.136207994933968, 0.849286759346893, 0.851878932140609, 0.985494754280861, 0.993071062473319, 0.981444261655881, 0.969325778361344, 0.907899753303623, 0.901529641235432, 0.887462104496864, 0.886792101870649, 0.882337657975567, 0.877067745666469, 0.865893138650169, 0.855727757209067, 0.84206748331512, 0.812880031077103, 0.802215526310933, 0.783080439565728, 0.781819089269677, 0.775312502767906, 0.751514481816617, 0.750054964518729, 0.744793722655861, 0.735675517373579, 0.708440669867129, 0.676110154115755, 0.675960413159533, 0.639823995896073, 0.599848899625122, 0.597104693353398, 0.580528546295754, 0.568434441434249, 0.546346362091404, 0.538385210146507, 0.501890984121461, 0.49039664598963, 0.488271794670124, 0.444494011049464, 0.43072758299401, 0.425717428732568, 0.375179224984369, 0.355271732261244, 0.267379811484384, 0.257897206998858, 0.251653592694617, 0.197092015997168, 0.185859796946574, 0.174405513995476, 0.150713240653107, 0.842357821820211, 0.844949994613928, 0.97856581675418, 0.993071062473319, 0.988373199182562, 0.976254715888025, 0.914828690830304, 0.908458578762113, 0.894391042023545, 0.89372103939733, 0.889266595502248, 0.88399668319315, 0.87282207617685, 0.862656694735748, 0.848996420841801, 0.819808968603785, 0.809144463837614, 0.790009377092409, 0.788748026796358, 0.782241440294587, 0.75844341934
-rates <- v(0.997407827206284, 0.863792005066032, 0.849286759346893, 0.842357821820211)
-fnFreeK(rates)
-rates <- v(0.997407827206284, 0.863792005066032, 0.849286759346893, 0.842357821820211, 0.830731021002773, 0.818612537708237, 0.757186512650516)
-fnFreeK(rates)
-rates_file <- readDelimitedDataFile("vec.csv", header = TRUE, separator=",", rownames=FALSE)
-rates_file
+for (i in 1:contents.size()) {
+rates[i] <- contents[i][1]
 }
-for (i in 1:rates_file.size()) {
-    rates[i] <- rates_file[i][1]
+rates <- contents[1:contents.size()][1]
+1:contents.size()
+contents[1:contents.size()]
+for (i in 1:contents.size()) {
+    print(contents[i][1])
 }
-rates
-rates_file
-fnFreeK(rates)
+for (i in 1:contents.size()) {
+    rates[i] <- contents[i][1]
+}
+for (i in 1:contents.size()) {
+    rates[i] <- contents[i][1] + 0.0
+}
 q()
-rates_file <- readDelimitedDataFile("matrices/PC1.csv", header = TRUE, separator=",", rownames=FALSE)
-rates
-for (i in 1:rates_file.size()) {
-rates[i] <- rates_file[i][1]
-}
-rates
-fnFreeK(rates)
-rates_file
-rates
-file <- "PC" + 1 + ".csv
-file <- "PC" + 1 + ".csv"
-file
+file <- "discrete_model/q_matrix.csv"
 contents <- readDelimitedDataFile(file, header = TRUE, separator=",", rownames=FALSE)
-for (i in 1:65) {
-    file <- "matrices/PC" + i + ".csv"
-    contents <- readDelimitedDataFile(file, header = TRUE, separator=",", rownames=FALSE)
-    for (j in 1:rates_file.size()) {
-        rates[j] <- rates_file[j][1]
-    }
-    Q[i] <- fnFreeK(rates)
+for (i in 1:contents.size()) {
+rates[i] <- contents[i][1]
 }
-Q[4]
-morpho <- readDiscreteCharacterData("multistate_test.nex")
-morpho = readDiscreteCharacterData("multistate_test.nex")
-morpho <- readDiscreteCharacterData("multistate_test.nex")
-morpho = readDiscreteCharacterData("multistate_test.nex")
-morpho <- readDiscreteCharacterData("multistate_test.nex")
-morpho
+rates
+q <- fnFreeK(rates)
+q 
 q()
-morpho <- readDiscreteCharacterData("multistate_test.nex")
-morpho[1]
-morpho[,1]
-morpho[1,]
-morpho.methods()
-q()
-taxa <- readTaxonData("armand_learning/simple_model/data/mini_taxa.tsv")
-taxa.methods()
-taxa[1][1]
-taxa[1]
-taxa[1].maxAge()
-taxa[1].methods()
+morpho <- readDiscreteCharacterData("discrete_model/discrete_character_data.nex")
+nchar <- morpho.nchar()
+num_states <- morpho.getNumStatesVector()
+for (i in 1:nchar) {
+    file <- "discrete_model/matrices/q_matrix_" + i + ".csv"
+    contents <- readDelimitedDataFile(file, header = TRUE, separator=",", rownames=FALSE)
+    for (j in 1:contents.size()) {
+        rates[i][j] <- contents[j][1]
+    }
+    q[i] <- fnFreeK(rates[i])
+}
+q[i].methods()
+q.methods()
+q[1].size()
+morpho <- readDiscreteCharacterData("discrete_model/discrete_character_data.nex")
+nchar <- morpho.nchar()
+num_states <- morpho.getNumStatesVector()
+num_states
+morpho.getNumStatesVector()
+morpho <- readDiscreteCharacterData("discrete_model/discrete_character_data.nex")
+nchar <- morpho.nchar()
+num_states <- morpho.getNumStatesVector()
+for (i in 1:nchar) {
+    file <- "discrete_model/matrices/q_matrix_" + i + ".csv"
+    contents <- readDelimitedDataFile(file, header = TRUE, separator=",", rownames=FALSE)
+    for (j in 1:contents.size()) {
+        rates[i][j] <- contents[j][1]
+    }
+    n = rates[i].size()
+    k = round((1 + sqrt(1 + 4 * n)) / 2)
+    q[i] <- fnFreeK(rates[i], rescaled=true)
+}
+moves = VectorMoves()
+taxa <- morpho.names()
+num_taxa <- taxa.size()
+num_branches <- 2 * num_taxa - 2
+br_len_lambda ~ dnExp(0.2)
+moves.append( mvScale(br_len_lambda, weight=2) )
+phylogeny ~ dnUniformTopologyBranchLength(taxa, branchLengthDistribution=dnExponential(br_len_lambda))
+moves.append( mvNNI(phylogeny, weight=num_branches/2.0) )
+moves.append( mvSPR(phylogeny, weight=num_branches/10.0) )
+moves.append( mvBranchLengthScale(phylogeny, weight=num_branches) )
+# compute the tree length from the phylogeny
+tree_length := phylogeny.treeLength()
+# Set up Gamma-distributed rate variation.
+alpha_morpho ~ dnUniform( 0.0, 1E6 )
+rates_morpho := fnDiscretizeGamma( alpha_morpho, alpha_morpho, 4 )
+# Moves on the parameters to the Gamma distribution.
+moves.append( mvScale(alpha_morpho,lambda=1, weight=2.0) )
+for (i in 1:nchar) {
+    print(i)
+    morpho_part[i] <- morpho
+    morpho_part[i].excludeAll()
+    morpho_part[i].includeCharacter(i)
+    m_morph[i] ~ dnPhyloCTMC( tree=phylogeny,
+                               Q=q[i],
+                               nSites=1,
+                               siteRates=rates_morpho,
+                               type="Standard")
+    m_morph[i].clamp(morpho_part[i])  
+}
+morpho_part[1] <- morpho
+morpho_part[1].excludeAll()
+morpho_part[1].includeCharacter(1)
+m_morph[1] ~ dnPhyloCTMC( tree=phylogeny,
+Q=q[1],
+nSites=1,
+siteRates=rates_morpho,
+type="Standard")
+m_morph[1].clamp(morpho_part[1])
+morpho_part[1]
+morpho_part[1].methods()
+morpho_part[1].nchar()
+morpho_part[1].maxStates()
 q()

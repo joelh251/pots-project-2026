@@ -5,9 +5,11 @@
 ### discrete_model
 Attempt to discretise the tree model.
 
-A simple version currently runs 600x slower than the old models.
+Division into bins is working.
 
-Test division of data into bins, rather than assignment of each value as a unique character.
+Model almost works - problem is there is RevBayes assumes all characters have the same number of states
+- Solution - make all matrices the same size
+    - Honestly, could probably just use a single matrix, the cost is a function of distance so should be fine
 
 
 ### armand_learning
